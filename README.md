@@ -28,7 +28,6 @@ $ python -m uvicorn main:app --reload
 
 ## Run test case via console
 
-Install dependencies
 ```bash
 $ pytest
 ```
