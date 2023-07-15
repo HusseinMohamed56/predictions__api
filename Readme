@@ -1,0 +1,10 @@
+# build docker image => sudo docker build -t predictions-app-image .
+# run docker container => docker run -p 8000:8000 predictions-app-image
+
+# build and run app without docker
+# RUN pip install --no-cache-dir --upgrade -r requirements.txt
+# python -m uvicorn main:app --reload
+
+# for run test cases => pytest
+
+# access api docmentations for url localhost:8000/docs
